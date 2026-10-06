@@ -45,8 +45,9 @@ docutils==0.20.1
     #   -r docs.txt
     #   sphinx
     #   sphinx-tabs
-filelock==3.13.3
+filelock==3.32.7
     # via
+    #   python-discovery
     #   tox
     #   virtualenv
 identify==2.5.35
@@ -124,6 +125,8 @@ pytest==8.2.2
     # via
     #   -r tests.txt
     #   -r typing.txt
+python-discovery==1.6.1
+    # via virtualenv
 python-dotenv==1.0.1
     # via
     #   -r tests.txt
@@ -186,7 +189,7 @@ urllib3==2.2.1
     # via
     #   -r docs.txt
     #   requests
-virtualenv==20.25.1
+virtualenv==21.7.13
     # via
     #   pre-commit
     #   tox
